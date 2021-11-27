@@ -223,9 +223,18 @@ ul li:hover ul {
 }
 
 /** Filosofia**/
-.filosofia {
+.filosofia__general {
     background-color: #191818;
     padding-top:50px;
+}
+.desafio1__titulo {
+    background-color: #191818;
+    color: #ebeaea;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-size: 300%;
 }
 .desafio1 {
     background-color: #191818;
@@ -236,7 +245,6 @@ ul li:hover ul {
     margin-top: 50px;
     font-size: 300%;
 }
-
 .flex-container {
     display:flex;
     flex-direction: row;
@@ -244,7 +252,7 @@ ul li:hover ul {
     align-items: center;
     }
 
-.mision {
+.mision__general {
     background-color: #191818;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -258,7 +266,7 @@ ul li:hover ul {
     margin-top: 100px;  
 }
 
-.vision {
+.vision__general {
     background-color: #191818;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -272,7 +280,7 @@ ul li:hover ul {
     margin-top: 100px;
 }
 
-.valores {
+.valores__general {
     background-color: #191818;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
