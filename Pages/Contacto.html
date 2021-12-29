@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Contacto</title>
+    <meta name="description" content="Estamos disponibles las 24 horas para responder tus consultas, no dudes en escribirnos">
 </head>
 
 <body class="body">
@@ -19,7 +21,7 @@
             <ul class="menuOtros">
 
                 <li class="logoMenu">
-                    <a href="../index.html"><img src="../imagenes/LogoCross.png" width="150" height="150" alt="Logo"></a>
+                    <a href="../index.html"><img src="../imagenes/logoCross.png" width="150" height="150" alt="Logo"></a>
                 </li>
 
                 <li>
@@ -37,7 +39,7 @@
 
             </ul>
         </nav>
-
+    </header>
 
 <article>
   
@@ -45,41 +47,53 @@
         <h1 class="desafio1"> Donde encontrarnos </h1>
         <div class="contactoTexto">
             <div>
-                <p class="contactoParrafo"> Avenida Cabildo 5746, Ciudad Autonoma de Buenos Aires, Argentina</p>
+                <p class="contactoParrafo"> <img src="../imagenes/outline_location_on_white_24dp.png" width="" height="" alt="mapa">Avenida Cabildo 5746, Ciudad Autonoma de Buenos Aires, Argentina. </p>
                 
-                <p class="contactoParrafo"> Teléfono: 118577466 </p>
+                <p class="contactoParrafo"> <img src="../imagenes/outline_phone_iphone_white_24dp.png" width="" height="" alt="mapa">Teléfono: 118577466. </p>
 
-                <p class="contactoParrafo"> e-mail: fullcrossgym@gmail.com </p>
+                <p class="contactoParrafo"> <img src="../imagenes/outline_email_white_24dp.png" width="" height="" alt="mapa">E-mail: fullcrossgym@gmail.com. </p>
             </div>
         </div>
     </div>
     <div class="mapaContacto">
-        <img src="../imagenes/Mapa.jpg" width="300" height="300">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.5551823549818!2d-58.477932785029445!3d-34.53949606160936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6bb5e400a93%3A0x3396bb9136c5f862!2sAv.%20Cabildo%205746%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1639236380849!5m2!1ses!2sar" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
 
-    <div>
-        <h2 class="desafio1"> Contáctenos </h2>
-
-        <form class="formularioContacto" action="" target="" method="get">
-            <label for="fname">Nombre:</label>
-            <input class="nombre" type="text" i name="fname">
-            <label for="lname">Apellido:</label>
-            <input class="Apellido" type="text" i name="fname">
-            <label for="fname">Correo:</label>
-            <input class="correo" type="text" i name="fname">
-            <label for="fname"> Consulta:</label>
-            <textarea class="Escribinos" name="mensaje" rows="7" cols="30" placeholder="Escribinos"></textarea>
-            <input class="enviar" type="submit" onclick="alert('Envío exitoso!')" formaction="../Pages/Contacto.html"
-                value="enviar" reset>
-        </form>
-
-
-    </div>
+    <div class="formulario__Inicio">
+        <div class="contactenos">
+          <h2> Contáctenos </h2>
+        </div>
+        <div class="formuFlex">
+          <form action="" target="" method="get">
+            <div>
+              <label for="fname">Nombre:</label>
+              <input class="nombre" type="text" name="fname">
+            </div>
+            <div>
+              <label for="lname">Apellido:</label>
+              <input class="apellido" type="text" name="fname">
+            </div>
+            <div>
+              <label for="fname">Correo:</label>
+              <input class="correo" type="email" name="fname">
+            </div>
+            <div>
+              <label for="fname">Mensaje:</label>
+              <textarea class="Escribinos" name="mensaje" rows="7" cols="35" placeholder="Escribinos"></textarea>
+            </div>
+            <div>
+              <input class="enviar" type="submit" onclick="alert('Envío exitoso!')" formaction="Index.html"
+                value="Enviar" reset>
+            </div>
+          </form>
+        </div>
+      </div>
+  
 
 </article>
 
-    </header>
 
+<footer>
     <nav >
         <ul class="menu">
           <li> <a href="../Pages/Terminos y Condiciones.html"> Términos y condiciones </a> </li>
@@ -87,9 +101,8 @@
           <li> <a href="../Pages/Actividades.html"> Actividades </a> </li>
           <li> <a href="../Pages/Capacitaciones.html"> Capacitaciones </a> </li>
         </ul>
-
       </nav>
-      <p> Avenida Cabildo 5746</p>
+    </footer>
 </body>
 
 </html>

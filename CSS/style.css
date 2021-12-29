@@ -63,10 +63,10 @@ ul ul {
     left: 55%;
     display: none;
 }
+
 ul ul li {
     display:block;
 }
-
 
 ul li:hover ul {
     display: flex;
@@ -82,13 +82,14 @@ ul li:hover ul {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     width: 80%;
-    margin-top: 35px;
+    margin-top: 10px;
     margin-bottom: 0;
     top: 10px; left: 40px;
     color:#EBEAEA;
     width: 100vw;
     text-decoration: none;
 }
+
 .menu a {
     text-decoration: none;
     text-transform: uppercase;
@@ -116,7 +117,7 @@ ul li:hover ul {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 1.5rem;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .menuOtros a {
@@ -125,16 +126,19 @@ ul li:hover ul {
     text-decoration: none;
     text-transform: uppercase;
     color:#EBEAEA;
+
 }
 
 .menuOtros a:hover {
     color: #fb6c3c;
 }
 
+
 .menuOtros li {
     display: inline;
     float: top right;
-    margin: 15px;
+    margin-right: 25px;
+    margin-top: 5px;
 }
 
 .footer {
@@ -148,12 +152,21 @@ ul li:hover ul {
     font-family: 'Poppins', sans-serif;
 }
 
-
+.desafio2 {
+    background-color: #191818;
+    color: #ebeaea;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 200%;
+}
 
 /* Index */
 
 .imagenFondo {
-    background-image:url(../Imagenes/Cross.jpg)  ;
+    background-image:url(../imagenes/cross.jpg);
     background-size:cover;
     width: 100%; 
     position: relative;
@@ -208,6 +221,7 @@ ul li:hover ul {
 }
 .galeria {
     grid-area: galeria;
+
 }
 .publicidad {
     grid-area: publicidad;
@@ -233,7 +247,8 @@ ul li:hover ul {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
     font-size: 300%;
 }
 .desafio1 {
@@ -253,24 +268,28 @@ ul li:hover ul {
     }
 
 .mision__general {
-    background-color: #191818;
+    background-color: #fb6c3c;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #fb6c3c;
+    color: #ebeaea;
     width: 30%;
     height: 200px;
-    float: left;
     text-align: center;
+    float: left;
     border-radius: 15px;
     margin: 15px;
     margin-top: 100px;  
 }
 
+.mision__general p {
+    margin-top: 18px;
+}
+
 .vision__general {
-    background-color: #191818;
+    background-color: #fb6c3c;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #fb6c3c;
+    color: #ebeaea;
     width: 30%;
     height: 200px;
     float: left;
@@ -280,11 +299,15 @@ ul li:hover ul {
     margin-top: 100px;
 }
 
+.vision__general p {
+    margin-top: 35px;
+}
+
 .valores__general {
-    background-color: #191818;
+    background-color: #fb6c3c;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #fb6c3c;
+    color: #EBEAEA;
     width: 30%;
     height: 200px;
     float: left;
@@ -294,12 +317,17 @@ ul li:hover ul {
     margin-top: 100px;
 }
 
+.valores__general p {
+    margin-top: 25px;
+}
+
 .instalaciones {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color: #EBEAEA;
     font-size: 1.6rem;
     margin-bottom: 50px;
+    margin-top: 100px;
     text-transform: uppercase;
 }
 
@@ -328,15 +356,15 @@ ul li:hover ul {
     color: #EBEAEA;
     font-size: 1.6rem;
     text-transform: uppercase;
-    margin-bottom: 150px;
-    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .enviar {
     background-color: #191818;
     color: #ebeaea;
     font-family: 'Poppins', sans-serif;
-    width: 90px;
+    width: 100px;
     height: 40px;
     margin-top:20px;
     margin-left: 110px;
@@ -359,18 +387,18 @@ ul li:hover ul {
     font-size: 25px;
     text-align: left;
     align-items:center;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 .Escribinos {
     font-family: 'Poppins', sans-serif;
     font-size: small;
-    height: 100px;
-    margin-top: 100px;
+    height: 20px;
+    margin-top: 20px;
 
 }
 
 .nombre {
-   font-size: small;
+   font-size: medium;
    text-transform: lowercase;
    margin-top: 20px;
    text-align: left;
@@ -378,17 +406,23 @@ ul li:hover ul {
 
 .apellido {
     margin-top: 20px;
-    font-size: xx-small;
+    font-size: medium;
     text-align: left;
 }
 
 .correo {
     margin-top: 20px;
+    margin-left: 13px;
     text-align: left;
+    font-size:medium;
 }
 
 .Escribinos {
     margin:15px;
+    margin-top:20px;
+    margin-bottom: 0px;
+    margin-left: -4px;
+    font-size: medium;
 }
 
 .publicidad {
@@ -418,14 +452,11 @@ ul li:hover ul {
     width: 350px;
     height: 200px;
     color: transparent;
-
-
 }
 
-.dosPorUno:hover{
-    color: #fb6c3c;
+.dosPorUno:hover {
+    color:#fb6c3c;
     background-image: none;
-
 }
 
 
@@ -469,12 +500,16 @@ ul li:hover ul {
     color: #fb6c3c;
     background-image: none;
 }
+
+
 .tabla {
     background: linear-gradient(to top, #EBEAEA, #fb6c3c);
     width: 60%;
     text-align: center;
     margin: 0 auto;
 }
+
+
 
 .dias {
     background-color: #fb6c3c;
@@ -497,7 +532,7 @@ ul li:hover ul {
     font-family: 'Poppins', sans-serif;
     color: #ebeaea;
     width: 30%;
-    height: 100px;
+    height: 55px;
     float: right;
     text-align: center;
     margin: 15px;  
@@ -513,7 +548,7 @@ ul li:hover ul {
     color: #ebeaea;
     width: 30%;
     float: left;
-    height: 100px;
+    height: 50px;
     text-align: center;
     margin: 15px;  
     margin-left: 300px;
@@ -564,32 +599,34 @@ transform:scalez(2.1);
 
 
 /* CAPACITACIONES */
+
 .boxCursos {
     background-color: #fb6c3c;
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     margin-left: 200px;
     border-radius: 8px;
-
 }
 
 .division {
     float: left;
+    margin-bottom: 100px;
 }
-
 
 .cursos {
     color: #EBEAEA;
     font-family: 'Poppins', sans-serif;
     font-size: 1.6rem;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 50px;
 }
+
+
 
 .imagenCurso {
     align-content: center;
     padding: 40px;
-    margin-left: 25px;
+    margin-left: 1px;
     margin-bottom: 40px;
     margin-top: -10px;
 }
@@ -599,7 +636,7 @@ transform:scalez(2.1);
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     color: #EBEAEA;
-    margin-top: -75px;
+    margin-top: -55px;
     text-align: center;
 }
 
@@ -607,15 +644,17 @@ transform:scalez(2.1);
 .menuCapacitaciones {
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    top: 10px; left: 40px;
+    top: 10px; 
+    left: 40px;
     color:#EBEAEA;
-    width: 100vw;
+    align-content: center;
 }
 
 .menuCapacitaciones a {
     text-decoration: none;
     text-transform: uppercase;
     display: inline;
+    width: 100%;
     font-size: 1rem;
     color: #EBEAEA;
 
@@ -628,17 +667,6 @@ transform:scalez(2.1);
 
 /** Contacto **/
 
-.formularioContacto {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    width: 100%;
-    font-family: 'Poppins', sans-serif;
-    color: #EBEAEA;
-    padding-top: 45px;
-    margin-top: 45px;
-}
 
 
 
@@ -651,7 +679,7 @@ transform:scalez(2.1);
     height: 500px;
     width: 50%;
     margin-top: 50px;
-    text-transform: uppercase;
+    
 }
 
 .contactoParrafo {
@@ -659,6 +687,8 @@ transform:scalez(2.1);
     margin-left: 45px;
     margin-top:45px;
     align-items: center;
+    color: #fb6c3c;
+    font-size: medium;
 }
 
 .mapaContacto {
@@ -670,20 +700,17 @@ transform:scalez(2.1);
 
 }
 
+.terminos {
+    color:#ebeaea;
+    text-align: center;
+    margin:100px;
+}
+
 /* Media Querys */
 
 /*Dispositivo XS*/
 @media (min-width: 0px) and (max-width:350px) {
-    .grilla {
-        display: grid;
-        grid-template-areas: 
-        "principal principal principal"
-        "galeria galeria publicidad"
-        "formulario formulario formulario"
-        "pieDePagina pieDePagina pieDePagina";
-        grid-template-rows: auto auto auto auto;
-        grid-template-columns: 50vw 35vw 15vw;
-    } 
+    
     }
 
 /* MEDIA QUERY*/
@@ -694,7 +721,22 @@ transform:scalez(2.1);
 
 /* MOTO G4 (360 x 640)*/
 
+/* Index */
+
 @media (min-width: 351px) and (max-width:516px) {
+
+    .menuPrincipal {   
+        margin-right: 15px;
+        font-family: 'Poppins', sans-serif;
+        text-align:center;
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: bold;
+        width:100%;
+        justify-content: start;
+    
+    }
     .imagenFondo {
         width:100%;
         height:max-content;
@@ -717,33 +759,32 @@ transform:scalez(2.1);
 
 
     .menu a {
-        display:inline;
-        font-size: 0.4rem;
+        display:inline-block;
+        font-size: 0.7rem;
     }
 
     .filosofia {
+    margin-bottom: 5px;
+    }
+    .mision__general {
+        margin-top: 0px;
+        color: #fb6c3c;
+        background-color: #191818;
+        font-size: 0.8rem;
 
-        margin:15px;
-        padding:15px;
     }
-    .flex-container {
-        display: inline-block;
-        margin-top: 20px;
-    }
-    .mision {
-        width: 90%;
-        height: 92px;
-    }
-    .vision {
-        width: 90%;
-        height: 92px;
+    .vision__general {
+        margin-top: 0px;
+        color: #fb6c3c;
+        background-color: #191818;
+        font-size: 0.8rem;
     }
 
-    .valores {
-        width: 90%;
-        height: 80px;   
-        margin-top: 0;
-
+    .valores__general {
+        margin-top: 0px;
+        color: #fb6c3c;
+        background-color: #191818;
+        font-size: 0.8rem;
     }
 
     .galeria1{
@@ -752,11 +793,12 @@ transform:scalez(2.1);
     }
 
     .galeria2 {
-     padding-left: 20%;
+    padding-left: 20%;
     }
-
-    .publicidad {
-        display:none
+    .carousel-item {
+        margin-left:18px;
+        height:300px;
+        width: 600px;
     }
 
     .nav {
@@ -766,41 +808,52 @@ transform:scalez(2.1);
     .parrafoFooter {
         display:none;
     }
-
-    .grilla {
-        display: grid;
-        grid-template-areas: 
-        "principal principal principal"
-        "galeria galeria galeria"
-        "formulario formulario formulario"
-        "pieDePagina pieDePagina pieDePagina";
-        grid-template-rows: auto auto auto auto;
-        grid-template-columns: 50vw 35vw 15vw;
+ 
+    .formuFlex {
+        align-content: center;
     }
+    .nombre {
+    font-size: small;}
+
+    .apellido {
+        font-size: small;
     }
 
+    .Escribinos{
+        font-size:xx-small;
+    }
+    
+    .correo{
+        font-size:small;
+    }
+/*Nosotros*/
+.logoMenu {
 
+    display:none;
+    }
 
-
+}
     /*Dispositivo LARGE*/
 
-    @media (min-width: 517px) and (max-width:980px) {
+    @media (min-width: 524px) and (max-width:980px) {
 
         .imagenFondo {
-            width:100%;
+            width: 100%;
             height: 300px;
+            background-color: rgb(50,50,50);
+            background-blend-mode:soft-light;
 
         }
 
         .menuPrincipal li {
-            font-size: 0.8rem;
+            font-size: 2rem;
             display:inline;
             align-items: center;
     }
 
     .menu a {
-        display:inline;
-        font-size: 0.7rem;
+        display:inline-block;
+        font-size: 1rem;
     }
 
 
@@ -809,8 +862,7 @@ transform:scalez(2.1);
         }
 
         .logoCross {
-            height: 60px;
-            width: 60px;
+            display:none;
         }
 
         .flex-container {
@@ -818,45 +870,77 @@ transform:scalez(2.1);
             margin-top: 20px;
         }
 
-        .mision {
-            width: 90%;
-            height: 10px;
-            text-align: center;
+        .filosofia {
+            margin-bottom: 5px;
 
-        }
-        .vision {
-            width: 90%;
-            height: 60px;
-            text-align: center;
-        }
-
-        .valores {
-            width: 90%;
-            height: 60px;   
-            margin-top: 0;
-            text-align: center;
-        }
-
-        .galeria1{
-
-            padding-left: 30%;
-        }
-
-        .galeria2 {
-        padding-left: 30%;
-        }
-
-        .publicidad {
-            display:none
-        }
-
-        .nav {
-            display: inline;
-        }
-
-        .parrafoFooter {
-            display:none;
-        }
+            }
+            .mision__general {
+                margin: 15px;
+                color: #fb6c3c;
+                background-color: #191818;
+                width: 28%;
+                font-size: 1rem;
+                float:left;
+                
+        
+            }
+            .vision__general {
+                margin: 15px;
+                color: #fb6c3c;
+                background-color: #191818;
+                width: 25%;
+                font-size: 1rem;
+                float:center;
+            }
+        
+            .valores__general {
+                margin: 15px;
+                color: #fb6c3c;
+                background-color: #191818;
+                width: 28%;
+                font-size: 1rem;
+                float:right;
+            }
+        
+            .galeria1{
+        
+                padding-left: 20%;
+            }
+        
+            .galeria2 {
+            padding-left: 20%;
+            }
+            .carousel-item {
+                margin-left:18px;
+                height:400px;
+                width: 930px;
+            }
+        
+            .nav {
+                display: inline;
+            }
+        
+            .parrafoFooter {
+                display:none;
+            }
+         
+            .formuFlex {
+                align-content: center;
+            }
+            .nombre {
+            font-size: small;}
+        
+            .apellido {
+                font-size: small;
+            }
+        
+            .Escribinos{
+                font-size:xx-small;
+            }
+            
+            .correo{
+                font-size:small;
+            }
 
         .grilla {
             display: grid;
